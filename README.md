@@ -16,8 +16,12 @@ Add ability to uncheck-all.
 Include the JS file then :
 
 ```html
+    <!-- On/Off controls-->
     <span class="btn-link" data-toggle="autoCheck-on" data-target="#cities"> Select All </span>
     <span class="btn-link" data-toggle="autoCheck-off" data-target="#cities"> Select None </span>
+    <!-- Toggle control -->
+    <input type="checkbox" data-toggle="autoCheck-toggle" data-target="#cities"> Select/Unselect
+    <!-- Targets -->
     <div id="cities">
         <input type="checkbox"> San Francisco
         <input type="checkbox"> San José
